@@ -1,0 +1,6 @@
+25/05/2016	00:16:47	Process: 5	Socket: 0	Error (class: 2) Call to 'bind' failed.Error: 48 Address already in use
+24/09/2016	11:38:10	URL: /Pomodo/login.shtml	Process name: _HIT_HTTPD__RequestHandler 1	55	4DRT	A Boolean argument was expected.
+24/09/2016	11:38:15	URL: /Pomodo/login.shtml	Process name: _HIT_HTTPD__RequestHandler 1	55	4DRT	A Boolean argument was expected.
+24/09/2016	11:49:58	URL: /Pomodo/login.shtml	Process name: _HIT_HTTPD__RequestHandler 1	55	4DRT	A Boolean argument was expected.
+24/09/2016	11:50:03	URL: /Pomodo/login.shtml	Process name: _HIT_HTTPD__RequestHandler 1	55	4DRT	A Boolean argument was expected.
+24/09/2016	11:50:16	URL: /Pomodo/login.shtml	Process name: _HIT_HTTPD__RequestHandler 1	55	4DRT	A Boolean argument was expected.

@@ -1,0 +1,10 @@
+<!--HIT_EXECUTE
+C_TEXT(_HIT_HTMLTXT)
+_HIT_HTMLTXT:="<table border=1>"
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<th>Name</th><th>Email</th>"
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<tr>"
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<td>"+_HIT_WebSession_GetVar("user_name")+"</td>"
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<td>"+_HIT_WebSession_GetVar("user_email")+"</td>"
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"</tr>"
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"</table>"
+-->

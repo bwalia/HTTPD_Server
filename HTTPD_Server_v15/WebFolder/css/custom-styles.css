@@ -1,0 +1,281 @@
+
+/**************************************
+/ Gallery
+**************************************/
+.gallery-title { margin-bottom:15px; }
+.gallery-item { margin-bottom:15px; margin-top:15px; }
+
+.gallery-hover-6col,
+.gallery-hover-4col,
+.gallery-hover-3col,
+.gallery-hover-4col-cir { 
+	display:none; 
+	background:url(../img/gallery-item-hover.png);
+	position:absolute; 
+	z-index: 10;
+}
+
+/* Large Desktop Size */
+@media (min-width: 1200px) {
+	
+	.gallery-hover-4col {min-width: 267px; border-radius:5px;  min-height: 199px;}
+	
+
+}
+
+/* Small Desktop Size */
+@media (min-width: 980px) and (max-width: 1199px) {
+	.gallery-hover-6col {width:140px; height:114px;}
+	.gallery-hover-4col {width: 265px;
+height: 202px;}
+	.gallery-hover-3col {width:300px; height:243px;}
+	.gallery-hover-4col-cir {width:220px; height:220px;}
+	.gallery-hover-4col-cir .gallery-icons {top: 42%; left:29%;}
+
+	/* Clip descriptions */
+	li.span4 .project-details {
+	    -o-text-overflow: ellipsis;
+	    text-overflow:    ellipsis;
+	    overflow:hidden;
+	    white-space:nowrap;
+	    width: 280px;
+	}
+	li.span3 .project-details {
+	    -o-text-overflow: ellipsis;
+	    text-overflow:    ellipsis;
+	    overflow:hidden;
+	    white-space:nowrap;
+	    width: 200px;
+	}
+	li.span2 .project-details {
+	    -o-text-overflow: ellipsis;
+	    text-overflow:    ellipsis;
+	    overflow:hidden;
+	    white-space:nowrap;
+	    width: 120px;
+	}
+}
+
+/* Portrait tablet to landscape */
+@media (min-width: 768px) and (max-width: 979px) {
+
+	/* Clip descriptions */
+	li.span2 .project-details {display:none;}
+	li.span3 .project-details {
+	    -o-text-overflow: ellipsis;
+	    text-overflow:    ellipsis;
+	    overflow:hidden;
+	    white-space:nowrap;
+	    width: 146px;
+	}
+	li.span4 .project-details {
+	    -o-text-overflow: ellipsis;
+	    text-overflow:    ellipsis;
+	    overflow:hidden;
+	    white-space:nowrap;
+	    width: 208px;
+	}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.project-details {width: 250px; text-align: center}
+	.gallery-post-grid {text-align: center}
+	.project-details {margin-left:auto; margin-right: auto;}
+	.gallery {text-align: center; }
+	.gallery-cats { display: none;}
+	li.span2 .project-details {
+	    -o-text-overflow: ellipsis;
+	    text-overflow:    ellipsis;
+	    overflow:hidden;
+	    white-space:nowrap;
+	    width: 150px;
+		}
+		
+		
+}
+
+
+
+
+/* Mobile Landscape Size */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	li.span4 .project-details {width:350px;}
+
+
+
+}
+
+
+/* Mobile Portrait Size */
+@media only screen and (max-width: 479px) {
+	li.span4 .project-details {width:260px;}
+}
+
+.project-details {
+	  margin-top: 3px;
+  background: #40a3d4;
+  display: block;
+  padding: 10px;
+  border-bottom: 1px dotted #a9a9a9;
+  min-width: 266px;
+  height: auto;
+  max-width: 213px;
+  border-radius: 3px;
+   
+}
+.project-details a {
+	margin: 0px; 
+	font-size: 12px; 
+	font-style: normal;
+	text-shadow:none;
+	display: block;
+		font-weight: normal;
+	
+}
+.project-details {color: #fff;}
+.project-details a {color: #fff;}
+.project-details a:hover {color: #000; text-decoration: none;}
+
+.project-info {margin: 0px 0px 40px 0px;}
+.project-info li { 
+	list-style: none; 
+	border-bottom: 1px dashed #a9a9a9;;
+	padding: 10px; }
+.project-info li h6 {display: inline; margin-right: 5px;}
+
+.gallery-icons {
+	z-index: 9;
+	position:absolute;
+	bottom: 0px; 
+	right: 0px;
+	width: 89px;
+	height: 42px;
+	display: block;
+}
+
+
+
+
+
+
+a.item-zoom-link { 
+	height: 42px;
+	width: 42px;
+	background: #ffffff url(../img/gallery-item-icons.png) no-repeat;
+	background-position: 0px 0px;
+	position:absolute;
+	display: block;
+}
+a.item-details-link { 
+	height: 42px;
+	width: 42px;
+	background: #ffffff url(../img/gallery-item-icons.png) no-repeat;
+	background-position: -42px 0px;
+	position:absolute; 
+	left: 47px;
+	display: block;
+}
+a.item-zoom-link:hover {background: #ddd  url(../img/gallery-item-icons.png) no-repeat;}
+a.item-details-link:hover {background: #ddd url(../img/gallery-item-icons.png) no-repeat; background-position: -42px 0px;}
+
+.gallery-post-grid {margin:0px;}
+
+
+.gallery-post-grid ul{
+	margin-left: 0px !important;
+}
+.gallery-post-grid li { 
+    list-style: none;
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  max-width: 269px;
+  max-height: 286px!important;
+  overflow: hidden;
+  min-width: 275px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 4px;}
+
+.gallery-cats {margin: 0px 0px 20px 0px;}
+.gallery-cats li{
+	list-style: none; 
+	float: left; 
+	padding: 0px 10px;
+	border-left: 1px dotted #a9a9a9;
+}
+.gallery-cats li:first-child{border-left:0px;}
+	
+	.gallery-post-grid img{
+		height:200px;
+		width:265px;
+		border-radius:5px;
+	}
+
+
+/***** Lightbox *****/
+#lightbox-image-details-caption {
+	font-family: "Oswald", sans-serif; 
+	font-weight: normal;
+	text-transform:uppercase;
+	font-size: 14px;
+}
+#lightbox-secNav-btnClose {width: 30px; padding-bottom: 0;}
+#lightbox-image-details-currentNumber {display: none; visibility: hidden;}
+
+/***** Testimonials *****/
+.quote-text { 
+	font-size:16px; 
+	line-height:24px; 
+	font-family:Georgia, "Times New Roman", Times, serif; 
+	font-style:italic;
+	margin:0px 20px; }
+.quote-text cite { 
+	font-size:12px; 
+	color:#999;
+	display:block;
+	margin-top:5px; }
+	
+	
+	
+	
+		.gallery-icons {
+	z-index: 9;
+	position:absolute;
+	bottom: 0px; 
+	right: 0px;
+	height: 22%;
+display: block;
+width: 35% !important;
+}
+
+
+
+
+/*a.item-zoom-link { height: 42px;
+width: 42px;
+background: #FFF url("../img/gallery-item-icons.png") no-repeat scroll -42px 0px;
+position: absolute;
+left: 300%!important;
+display: block;
+top: 467%!important;
+bottom: 47%!important;
+}
+
+
+a.item-details-link { 
+	height: 42px;
+	width: 42px;
+	background: #ffffff url("../img/gallery-item-icons.png") no-repeat;
+	background-position: -42px 0px;
+	position: absolute;
+left: 310px;
+display: block;
+top: 198px;
+}
+
+
+a.item-zoom-link:hover {background: #ddd  url(../img/gallery-item-icons.png) no-repeat;}
+a.item-details-link:hover {background: #ddd url(../img/gallery-item-icons.png) no-repeat; background-position: -42px 0px;}*/
+
+	

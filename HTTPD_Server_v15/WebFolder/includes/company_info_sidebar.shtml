@@ -1,0 +1,29 @@
+<!-- Classic Heading -->
+<h4 class="heading-title"><span>Company Details</span></h4>
+
+<p>
+					Tenthmatrix Information System Ltd
+Registered in England and Wales.
+Registered Company No 06597469.
+VAT No GB 972 9855 56.
+
+
+</p>
+				
+	<h4 class="heading-title"><span>Address</span></h4>
+				<p>Registered Address:
+The Coach House
+77A Marlowes
+Hemel Hempstead, Herts
+HP1 1LF</p>
+
+	<h4 class="heading-title"><span> Billing Contact </span></h4>
+				
+				
+				<p><strong>Phone:</strong> 0207 118 7889<br>
+<strong>Name:</strong> Laura New<br>
+<strong>Email:</strong> <script>document.write('bill'+'ing'+'@'+'tenth'+'matrix'+'.'+'co'+'.'+'uk');</script></p>
+
+	<h4 class="heading-title"><span> Billing FAQ </span></h4>	
+    	<p> <a title="Refund Policy" target="_blank" href="http://www.tenthmatrix.co.uk/terms-of-business.html#refund_policy">Refund Policy</a><br>
+<a target="_blank" href="http://twitter.com/#!/Tenthmatrix" title="Follow us on Twitter">Follow us on Twitter</a></p>

@@ -1,0 +1,12 @@
+<!--HIT_EXECUTE
+
+If (_HIT_JWT_UserIsAuthenticated )
+_HTMLTITLETXT:="<h2>Authorized Worked!</h2>"
+
+Else 
+
+_HTMLTITLETXT:="<h2>You are not an authorized user to view this page!</h2>"
+
+End if 
+
+-->

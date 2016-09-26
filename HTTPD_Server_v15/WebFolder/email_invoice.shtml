@@ -1,0 +1,147 @@
+<!--HIT_EXECUTE
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<!--#4DSCRIPT/_HIT_LoadInclude/admin/includes/header.shtml-->
+	<link href="css/lib/bootstrap-wysihtml5.css" type="text/css" rel="stylesheet">
+	<style>
+	.content{
+	margin-left:0px;
+	margin-bottom:0px;
+	}
+	
+	#fileupload_wrap_list{
+	margin-left:150px;
+	
+	}
+	
+	</style>
+	
+</head>
+<body>
+   
+
+	<!-- main container -->
+    <div class="content">
+        
+        <div class="container-fluid">
+            <div id="pad-wrapper" class="form-page">
+				 <div class="row-fluid header">
+                    <h3>Email Invoice</h3>
+                </div>
+				<form enctype="multipart/form-data" name="EmailForm" action="send_email.cgi" class="form-comment" method="post" onSubmit="return ValidateForm();">
+					<div class="row-fluid form-wrapper">
+						<!-- left column -->
+						<div >
+							<div class="field-box">
+								<label>To</label>
+								<input type="text" id="mail_to" value="" name="mail_to" class="span9">
+							</div>
+							
+							<div class="field-box">
+								<label>Subject</label>
+								<input type="text" id="mail_sub" value="" name="mail_sub" class="span9">
+							</div>
+							
+							<div class="field-box">
+								<label>Attachment</label>
+								
+								<input name="fileupload" type="file" id="fileupload" class="multi" >
+								
+								
+							</div>
+							
+														<div class="field-box">
+								<label>Attachment 2</label>
+								
+								<input name="fileupload2" type="file" id="fileupload2" class="multi" >
+								
+								
+							</div>
+
+							
+							<div class="field-box">
+								<label>Mail Content</label>
+								<div class="wysi-column">
+								 <textarea name="mail_content" id="mail_content" class="span10 wysihtml5" rows="15"></textarea>
+								 </div>
+							</div>
+
+                                        
+							<div class="span11 field-box" style="text-align: center;">
+								<input type="submit" class="btn-glow primary" value="Send Mail">
+								
+								<span>OR</span>
+								<input type="reset" value="Cancel" class="reset">
+							</div>
+						</div>
+					
+						
+						
+						
+					</div>
+				</form>
+            </div>
+        </div>
+    </div>
+    <!-- end main container -->
+
+	<!-- scripts -->
+    <!--#4DSCRIPT/_HIT_LoadInclude/admin/includes/footer.shtml-->
+	 <script src="js/wysihtml5-0.3.0.js"></script>
+	<script src="js/bootstrap-wysihtml5-0.0.2.js"></script>
+	<script src="js/jquery.uniform.min.js"></script>
+	<script src="js/select2.min.js"></script>
+	
+	<script src='multiple-file-upload/jquery.form.js' type="text/javascript" language="javascript"></script>
+	<script src='multiple-file-upload/jquery.MetaData.js' type="text/javascript" language="javascript"></script>
+ <script src='multiple-file-upload/jquery.MultiFile.js' type="text/javascript" language="javascript"></script>
+<!-- <script src='multiple-file-upload/jquery.blockUI.js' type="text/javascript" language="javascript"></script>-->
+ 
+	<!-- call this page plugins -->
+	 <script type="text/javascript">
+        $(function () {
+
+            // add uniform plugin styles to html elements
+            $("input:checkbox, input:radio").uniform();
+
+           
+            // wysihtml5 plugin on textarea
+            $(".wysihtml5").wysihtml5({
+                "font-styles": false
+            });
+			
+			
+			
+			
+        });
+    </script>
+	
+
+	
+	<script language="javascript">
+function ValidateForm () {
+if (document.EmailForm.mail_to.value=="")
+{ alert('Please enter mail receipient');
+	document.EmailForm.mail_to.focus() ;
+	return false;
+}
+
+if (document.EmailForm.mail_sub.value=="")
+{ alert('Please enter mail subject');
+	document.EmailForm.mail_sub.focus() ;
+	return false;
+}
+if (document.EmailForm.mail_content.value=="")
+{ alert('Please select mail content');
+	document.EmailForm.mail_content.focus() ;
+	return false;
+}
+
+}
+</script>
+	
+ 
+</body>
+</html>

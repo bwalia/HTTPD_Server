@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tenthmatrix Billing Secure Site - Quote approval online</title>
+
+<!--#4DSCRIPT/_HIT_LoadInclude/includes/static_files.shtml-->
+<style>
+h4 {
+	font-family: sans;
+	font-weight: bold;
+	margin-top: 0.7em;
+	margin-bottom: 0.5em;
+}
+
+.trans_type { position: absolute; 
+color: #666666;
+	overflow: visible; 
+	left: 22; 
+	top: 60; 
+	padding-bottom: 10px; 
+	font-family:sans; 
+	font-size: 26px;
+	margin: 0;
+}
+
+
+td { vertical-align: top; }
+.items td {
+    border-left: 0.1mm solid #000000;
+    border-right: 0.1mm solid #000000;
+}
+
+table thead td { background-color: #EEEEEE;
+    text-align: center;
+    border: 0.1mm solid #000000;
+}
+.items td.blanktotal {
+    background-color: #FFFFFF;
+    border: 0mm none #000000;
+    border-top: 0.1mm solid #000000;
+    border-right: 0.1mm solid #000000;
+}
+.items td.totals {
+    text-align: right;
+    
+    border: 0.1mm solid #333333;
+}
+.bankDetails
+{
+	background-color: #FFF;
+	border-collapse: collapse; 
+	border: 1px solid #827F85;
+	margin: 4pt 0pt 0pt 0pt;
+}
+.bankDetails td 
+{
+     border: 1px solid #827F85;
+}
+.bankDetails thead td 
+{ 
+	background-color: #00A3D3;
+	text-align: center;
+	color:#FFF;
+	font-size: 12pt;
+	text-align: center;
+	font-family:Verdana, Geneva, sans-serif;
+}
+</style>
+</head>
+
+<body>
+
+  <div class="container">
+  <div class="row">
+    <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 logo"><a href="https://www.tenthmatrix.co.uk/index.php"><img src="images/logo.jpg" class="img-responsive"   alt="Tenthmatrix"   /></a></div>
+</div>
+</div>
+
+
+<div class="container">
+	<div class="row client">
+		<div id="content">
+			<div class="container">
+				<div class="row " style="margin-top:20px;">
+					<div class="col-lg-8 col-md-9 col-sm-12 col-xs-12 content ">
+            			<h1 style="margin-top: 10px; " ><span>Work Order (CV Screen Website)</span></h1>
+				
+						<!-- Classic Heading -->
+						<div id="response_msg"></div>
+						<!-- Start Contact Form -->
+						<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 content ">
+						<div style="margin-top: 90; margin-bottom: 0pt; width: 100%;	border:0.1mm solid #220044; background-color: #EEEEEE;
+							background-gradient: linear #eeeeee #f0f2f0 0 1 0 0.5;">
+							<h4><b>Bill To:</b></h4>
+							CV Screen<br />
+						</div>
+						</div>
+						<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 content ">
+						<div style="position: absolute; float:right;overflow: visible; padding-bottom: 10px; font-family:sans; width: 300px;">
+
+<table width="100%" style="border-collapse: collapse; font-family: sans; border: 1px solid #333333;" cellpadding="8">
+<tr>
+<td style="background-color: #EEEEEE; border-right: 1px solid #333333;border-bottom: 1px solid #333333;"><b>Order#</b></td>
+<td style="text-align: center;border-bottom: 1px solid #333333;">1355-000918</td>
+</tr>
+<tr>
+<td style="background-color: #EEEEEE; border-right: 1px solid #333333;border-bottom: 1px solid #333333;"><b>Account No</b></td>
+<td style="text-align: center;border-bottom: 1px solid #333333;">1355</td>
+</tr>
+<tr>
+<td style="background-color: #EEEEEE; border-right: 1px solid #333333;border-bottom: 1px solid #333333;"><b>Sales person</b></td>
+<td style="text-align: center;border-bottom: 1px solid #333333;">Neha Kapoor</td>
+</tr>
+
+<tr>
+<td style="background-color: #EEEEEE; border-right: 1px solid #333333;border-bottom: 1px solid #333333;"><b>Order Date</b></td>
+<td style="text-align: center;border-bottom: 1px solid #333333;">20/01/2016</td>
+</tr>
+<tr>
+<td style="background-color: #EEEEEE; border-right: 1px solid #333333;border-bottom: 1px solid #333333;"><b>Estimated Delivery Date</b></td>
+<td style="text-align: center;border-bottom: 1px solid #333333;">00/00/00</td>
+</tr>
+<tr>
+<td style="background-color: #EEEEEE; border-right: 1px solid #333333;border-bottom: 1px solid #333333;">Project</td>
+<td style="text-align: center;border-bottom: 1px solid #333333;">WEBSITE</td>
+</tr>
+<tr>
+<td style="background-color: #EEEEEE; border-right: 1px solid #333333;border-bottom: 1px solid #333333;">Ordered by</td>
+<td style="text-align: center;border-bottom: 1px solid #333333;">David</td>
+</tr>
+
+</table>
+</div>
+						</div>
+
+<table class="items" width="100%" style="border-collapse: collapse;margin-top: 40%;" cellpadding="8">
+<thead>
+<tr>
+<td width="5%">ITEM</td>
+<td width="10%">UNIT</td>
+<td width="45%">DESCRIPTION</td>
+<td width="15%">UNIT PRICE</td>
+<td width="10%">DISCOUNT</td>
+<td width="15%">AMOUNT</td>
+</tr>
+</thead>
+<tbody>
+
+<!-- ITEMS HERE -->
+<tr>
+
+<td align="center">1</td>
+<td align="center">1</td>
+<td>4d Server- 10 client Licences</td>
+<td align="right">2270.00</td>
+<td align="right">10%</td>
+<td align="right">&#163;2043.00</td>
+</tr>
+<tr style="background-color: #EEEEEE; border-top: 1px solid #333333;border-bottom: 1px solid #333333;">
+
+<td align="center">1</td>
+<td align="center">1</td>
+<td>4D Server Annual Maintenance</td>
+<td align="right">200.00</td>
+<td align="right">0%</td>
+<td align="right">&#163;200.00</td>
+</tr>
+
+<!-- END ITEMS HERE -->
+
+<tr>
+<td class="blanktotal" colspan="4" rowspan="6"></td>
+<td class="totals">Subtotal:</td>
+<td class="totals">&#163;2243.00</td>
+</tr>
+<tr>
+<td class="totals">VAT:</td>
+<td class="totals">448.60</td>
+</tr>
+<tr>
+<td class="totals">Delivery:</td>
+<td class="totals">Electronic</td>
+</tr>
+<tr>
+<td class="totals"><b>TOTAL:</b></td>
+<td class="totals"><b>&#163;2691.60</b></td>
+</tr>
+<tr>
+<td class="totals"><b>Balance due:</b></td>
+<td class="totals"><b>&#163;2691.60</b></td>
+</tr>
+</tbody>
+</table>
+
+
+					<!-- End Contact Form -->
+				
+				</div>
+        			<div class=" col-lg-4 col-md-3 col-sm-12 col-xs-12 ">
+						<!-- Classic Heading -->
+						<h4 class="heading-title"><span>Please check Quote:</span></h4>
+						<a style="color: #fff; padding: 6px 10px;  margin-bottom:10px;" class="btn btn-success" href="javascript:void(0)" onClick="__accept()">Accept it</a>
+						<br>
+						<div id="err_msg"></div>
+						<textarea id="comment" name="comment" rows="6" class="form-control"></textarea>
+						<a style="color: #fff; padding: 6px 10px;  margin-bottom:10px;  margin-top:10px;" class="btn btn-warning" href="javascript:void(0)" onClick="leave_comment()">Leave Comments</a>
+						<br><a style="color: #fff; padding: 6px 10px;  margin-bottom:10px;" class="btn btn-danger" href="javascript:void(0)" onClick="__decline()">Decline it</a>
+						<br><a style="text-decoration:none;" target="_blank" href="https://www.tenthmatrix.co.uk/terms-of-business.html">Terms of business</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+<table style="bankDetails" cellpadding="8" cellspacing="0"  style="width: 50%">
+<tbody>
+<tr>
+<td>Order Ref</td>
+<td><b>1355-000918</b></td>
+</tr>
+<tr>
+<td>Order Currency Code</td>
+<td><b>GBP</b></td>
+</tr>
+</tbody>
+</table>
+		<img class="partnerlogo" src="images/adobe-technology-partner.jpg" width="188" />
+		<img class="partnerlogo" src="https://www.tenthmatrix.co.uk/images/partner-silver.png" width="120" />
+
+<h3>Thank you for your business.</h3>
+
+<h5>VAT number: GB 972985556</h5>
+<h5><u>Terms of business</u></h5>
+<p>Please note that this is not a tax Invoice.</p>
+<p><a href="http://www.tenthmatrix.co.uk/terms-of-business.html" target="_blank">http://www.tenthmatrix.co.uk/terms-of-business.html</a></p>
+<p>Tenthmatrix Information Systems Ltd. also trading as Tenthmatrix, is a registered company number: 06597469. VAT number: GB 972 9855 56. Registered in England and Wales. Registered office address: The Coach House, 77A Marlowes, Hemel Hempstead, Herts, United Kingdom, HP1 1LF. Correspondence office address: 608 Hamilton House, 111 Marlowes, Hemel Hempstead, Herts, United Kingdom, HP1 1BB.</p>
+<p>Note: This Order was generated by Tenthmatrix CRM, Sales Order Processing and Invoicing system automatically.</p>
+<p>Date: 24/01/2016, Time: 01:46:45</p>
+<p align="right">E&OE</p>
+	</div>
+</div>
+<!---------------clientsays---section-------end------->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script> 
+<script src="js/jquery.event.move.js"></script>
+<script src="js/bs_leftnavi.js"></script>
+<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+<script type="text/javascript" src="js/jquery.flexisel2.js"></script>
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-hover-dropdown.js"></script>
+<script language="javascript">
+function leave_comment(){
+	var commentStr=$("#comment").val();
+	if(commentStr==""){
+		var errorMsgStr= '<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span> Please enter comment here</div>';
+		$("#err_msg").html(errorMsgStr);
+	}else{
+		$.ajax({
+			type: "POST",
+			dataType: "json",
+			url: "test.cgi",
+			data: {"comment":commentStr},
+			cache: false,
+			success: function(html){
+			
+				if(html.Success){		
+					$("#comment").val("");
+				}else if(html.error){
+					var errorMsgStr= '<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span> '+html.error+'</div>';
+					$("#err_msg").html(errorMsgStr);
+				}
+			}
+		});
+	}
+}
+
+function __accept(){
+		$.ajax({
+			type: "POST",
+			dataType: "json",
+			url: "test.cgi",
+			data: {"uuid": "XYZ"}, //pass the required
+			cache: false,
+			success: function(html){
+			console.log(html);
+				if(html.success){					
+					$("#comment").val("");
+				}else if(html.error){
+					var errorMsgStr= '<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span> '+html.error+'</div>';
+					$("#err_msg").html(errorMsgStr);
+				}
+			}
+		});
+}
+
+function __decline(){
+		$.ajax({
+			type: "POST",
+			dataType: "json",
+			url: "test.cgi",
+			//data: {"comment":commentStr}, //pass the required
+			cache: false,
+			success: function(html){
+				if(html.Success){		
+					$("#comment").val("");
+				}else if(html.error){
+					var errorMsgStr= '<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span> '+html.error+'</div>';
+					$("#err_msg").html(errorMsgStr);
+				}
+			}
+		});
+}
+
+</script>
+</body>
+</html>

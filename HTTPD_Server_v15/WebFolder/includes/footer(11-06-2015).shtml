@@ -1,0 +1,183 @@
+<div class="wrap_wide">
+
+<div class="wrap">
+
+<!-- Begin footer -->
+
+<div class="footer">
+
+<!-- Begin first footer widget -->        
+
+<div class="box widget_links">
+
+<h3>Paying Online</h3>
+
+<ul>
+
+	<li><a target="_blank" href="http://www.tenthmatrix.co.uk/terms-of-business.html#refund_policy">Refund Policy</a></li>
+
+	<li><a target="_blank" href="http://www.tenthmatrix.co.uk/paying-invoice-by-credit-or-debit-card.html" title="Paying Invoices by Credit or Debit Card">Paying Invoices by Credit or Debit Card</a></li>
+
+	<!--<li><a target="_blank" href="http://www.tenthmatrix.co.uk/paying-invoice-by-credit-or-debit-card.html">Paying your Invoice(s) Online</a></li>-->
+
+</ul>
+
+</div>
+
+<!-- End first footer widget -->
+
+        
+
+<!-- Begin second footer widget -->
+
+<div class="box widget_recent_comments">
+
+<h3>Currencies</h3>
+
+<ul>
+
+
+	<li><a target="_blank" href="http://www.tenthmatrix.co.uk/payments-are-accepted-in-gbp.html">Currency: Payments are accepted in GBP (&#163;)</a></li>
+
+
+</ul>
+
+</div>
+
+<!-- End second footer widget -->
+
+        
+
+<!-- Begin third footer widget -->  
+
+<div class="box widget_recent_entries">		
+
+<h3>Paying by Credit or Debit Card</cufontext></cufon></h3>
+
+<ul>
+
+     <li><a  target="_blank" href="http://www.tenthmatrix.co.uk/list-of-cards-accepted-online.html" title="List of cards accepted online">List of cards we accept</a></li>
+
+</ul>
+
+</div>
+
+<!-- End third footer widget -->  
+
+
+
+<!-- Begin fourth footer widget -->           
+
+<div class="box widget_text no_margin">
+
+<h3>Tenthmatrix Billing</h3>
+
+<div class="textwidget">Tenthmatrix Billing System online is a secure and quick way to pay your Invoices, repeated payments, products and services.
+
+
+</div>
+
+</div>
+
+<!-- End fourth footer widget -->   
+
+</div>
+
+<!-- End footer -->
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="wrap_wide footer_copyright">
+
+<div class="wrap">
+
+<!-- Begin copyright -->
+
+<div class="copyright">
+
+<p>Copyright 2013 - All rights reserved Tenthmatrix Information Systems Ltd.
+
+
+
+&nbsp;<a title="Tenthmatrix Privacy policy" target="_blank" href="http://www.tenthmatrix.co.uk/privacy-policy.html">Privacy policy</a>&nbsp;|&nbsp;
+
+<a title="Tenthmatrix terms of business" target="_blank" href="http://www.tenthmatrix.co.uk/terms-of-business.html">Terms of business</a>&nbsp;|&nbsp;
+
+<a title="Site map" target="_blank" href="http://www.tenthmatrix.co.uk/sitemap.php">Site map</a>
+
+</p>
+
+<ul>
+
+    <li><a class="twitter" target="_blank" href="http://twitter.com/#!/Tenthmatrix" title="Follow us on Twitter">Twitter</a></li>
+
+    <li><a class="rss" href="rss.php" title="Subscribe to RSS feed">RSS feed</a></li>
+
+    <li><a class="go_top" href="#top" title="Go to top">Go to top &uarr;</a></li>
+
+</ul>
+
+</div>
+
+<!-- End copyright -->
+
+<script type="application/javascript">
+
+$(document).ready(function() {
+
+	// Cufon font
+
+	$("ul.menu").superfish();
+
+	Cufon.replace('h1, h2, h3, h4, h5, h6', {hover: true});
+
+	$.checkSearchBox = function checkSearchBox(){
+		var searchText = $('#s').val();
+		if(searchText=='' || searchText=='Search...'){
+			alert('Please enter search keyword(s).');return false;
+		}
+		else return true;
+	}
+
+
+});
+
+</script>
+
+</div>
+
+<script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-33481239-1']);
+
+  _gaq.push(['_setDomainName', 'tenthmatrix.co.uk']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>
+
+</div>

@@ -1,0 +1,36 @@
+<!--HIT_EXECUTE
+
+C_TEXT(_HIT_HTMLTXT)
+C_LONGINT(_HIT_COUNTER)
+ARRAY TEXT(tBasketNameArrTxt;0)
+ARRAY TEXT(tBasketValueArrTxt;0)
+_HIT_WebSession_GetArray ("basket_items";->tBasketNameArrTxt;->tBasketValueArrTxt)
+_HIT_HTMLTXT:="<table border=1>"
+
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<th>Basket Item Name</th><th>Basket Item Value</th>"
+
+For (_HIT_COUNTER;1;Size of array(tBasketNameArrTxt))
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<tr>"
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<td>"+tBasketNameArrTxt{_HIT_COUNTER}+"</td>"
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<td>"+tBasketValueArrTxt{_HIT_COUNTER}+"</td>"
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"</tr>"
+End for 
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"</table>"
+
+ARRAY TEXT(tRecentlyViewedNameArrTxt;0)
+ARRAY TEXT(tRecentlyViewedValueArrTxt;0)
+_HIT_WebSession_GetArray ("recently_viewed_items";->tRecentlyViewedNameArrTxt;->tRecentlyViewedValueArrTxt)
+
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<br><br><table border=1>"
+
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<th>Recently Viewed Item Name</th><th>Recently Viewed Item Value</th>"
+
+For (_HIT_COUNTER;1;Size of array(tRecentlyViewedNameArrTxt))
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<tr>"
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<td>"+tRecentlyViewedNameArrTxt{_HIT_COUNTER}+"</td>"
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"<td>"+tRecentlyViewedValueArrTxt{_HIT_COUNTER}+"</td>"
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"</tr>"
+End for 
+_HIT_HTMLTXT:=_HIT_HTMLTXT+"</table>"
+
+-->

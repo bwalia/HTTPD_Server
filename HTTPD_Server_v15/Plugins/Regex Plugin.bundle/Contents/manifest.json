@@ -1,0 +1,110 @@
+﻿{
+	"name": "Regex Plugin",
+	"id": 15000,
+	"commands": [
+		{
+			"theme": "Preg Commands",
+			"syntax": "Preg Match(&T;&T;&Y;&I):I"
+		},
+		{
+			"theme": "Preg Commands",
+			"syntax": "Preg Match Blob(&T;&O;&Y;&I):I"
+		},
+		{
+			"theme": "Preg Commands",
+			"syntax": "Preg Match All(&T;&T;&Y;&I):I"
+		},
+		{
+			"theme": "Preg Commands",
+			"syntax": "Preg Match All Blob(&T;&O;&Y;&I):I"
+		},
+		{
+			"theme": "Preg Commands",
+			"syntax": "Preg Split(&T;&T;&Y;&I)"
+		},
+		{
+			"theme": "Preg Commands",
+			"syntax": "Preg Split Blob(&T;&O;&Y;&I)"
+		},
+		{
+			"theme": "Preg Commands",
+			"syntax": "Preg Replace(&T;&T;&T;&I;&L):T"
+		},
+		{
+			"theme": "Preg Commands",
+			"syntax": "Preg Replace Blob(&T;&T;&O;&I;&L):O"
+		},
+		{
+			"theme": "Preg Commands",
+			"syntax": "Preg Replace Callback(&T;&T;&T;&I;&L):T"
+		},
+		{
+			"theme": "Preg Commands",
+			"syntax": "Preg Replace Callback Blob(&T;&T;&O;&I;&L):O"
+		},
+		{
+			"theme": "Preg Commands",
+			"syntax": "Preg Grep(&T;&Y;&Y;&Y;&I)"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex New Object(&T;&T;&I):L"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Delete Object(&L)"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Set Pattern(&L;&T;&I)"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Set Subject(&L;&T)"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Set Subject Blob(&L;&O)"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Match(&L):I"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Is Matched(&L):I"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Get Matched String(&L;&L):T"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Get Start(&L):L"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Get End(&L):L"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Get Group Count(&L):L"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Get Group Start(&L;&L):L"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Get Group End(&L;&L):L"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Get Named Group Number(&L;&T):L"
+		},
+		{
+			"theme": "Regex Commands",
+			"syntax": "Regex Replace Byte(&O;&I;&I):O"
+		}
+	]
+}

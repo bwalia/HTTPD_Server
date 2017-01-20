@@ -3,40 +3,36 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15G31</string>
+	<string>12C60</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>Regex Plugin</string>
 	<key>CFBundleIdentifier</key>
-	<string>nl.pluggers.regex-plugin</string>
+	<string>com.4D.4DPlugin</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
 	<string>4DCB</string>
 	<key>CFBundleSignature</key>
 	<string>4D06</string>
-	<key>CFBundleSupportedPlatforms</key>
-	<array>
-		<string>MacOSX</string>
-	</array>
 	<key>CFBundleVersion</key>
-	<string>2.1.2</string>
+	<string>2.0.1</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>DTCompiler</key>
-	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<string>4.0</string>
 	<key>DTPlatformBuild</key>
-	<string>7D1014</string>
+	<string>10M2518</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>PG</string>
 	<key>DTSDKBuild</key>
-	<string>15E60</string>
+	<string>8S2167</string>
 	<key>DTSDKName</key>
-	<string>macosx10.11</string>
+	<string>macosx10.4</string>
 	<key>DTXcode</key>
-	<string>0731</string>
+	<string>0400</string>
 	<key>DTXcodeBuild</key>
-	<string>7D1014</string>
+	<string>10M2518</string>
 </dict>
 </plist>

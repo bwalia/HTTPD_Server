@@ -1,1 +1,2 @@
 20/01/2017	00:14:55	URL: 	Process name: $HTTPD__Server	Socket: 0	Error (class: 2) Call to 'bind' failed.Error: 48 Address already in use
+20/01/2017	22:30:01	URL: 	Process name: $HTTPD__Server	Socket: 0	Error (class: 2) Call to 'bind' failed.Error: 48 Address already in use

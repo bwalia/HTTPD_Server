@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="LogStyleSheet.xsl"?>
+<verifylog operation="Build" name="HTTPD_Server" structure="Macintosh HD:Users:balinderwalia:Documents:4DApplications:HTTPD_Server:HTTPD_Server_v16:HTTPD_Server.4DB" data="" os="Mac OS X (10.12.3)">
+<start_timer time="2017-02-04T18:52:48+00:00"/>
+<stop_timer time="2017-02-04T18:52:50+00:00" success="true" user_canceled="false"/>
+<step title="Building component">
+<step title="Start compilation [2017-02-04T18:52:48]"></step>
+<step title="Start copying files : Macintosh HD:Users:balinderwalia:Documents:4DApplications:HTTPD_Server:HTTPD_Server_Build:Components:HTTPD_Server.4dbase:HTTPD_Server.4DC"></step>
+<step title="End copying files : Macintosh HD:Users:balinderwalia:Documents:4DApplications:HTTPD_Server:HTTPD_Server_Build:Components:HTTPD_Server.4dbase:HTTPD_Server.4DC"></step>
+<step title="End compilation [2017-02-04T18:52:50]"></step>
+</step>
+</verifylog>

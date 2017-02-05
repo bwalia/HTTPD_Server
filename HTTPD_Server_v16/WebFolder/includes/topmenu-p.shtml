@@ -1,0 +1,149 @@
+        <!--Begin menu -->
+<div class="navbar headerbcg">
+  <div class="container">
+  <div class="row visible-xs" >
+ 
+  <div class="col-xs-12">
+    <div class="socialtxt headerscllink "><a href="https://www.tenthmatrix.co.uk/news.php">News</a> <a href="https://www.tenthmatrix.co.uk/blog.php">Blog</a> <a href="https://www.tenthmatrix.co.uk/careers.html">Career</a>
+
+    <a target="_blank" title="Facebook" href="https://www.facebook.com/pages/Tenthmatrix-Information-Systems-Ltd/135928919777965"><img src="images/facebok.jpg"  /></a>
+    <a target="_blank" title="Google+" href="#"><img src="images/google.jpg"  /></a>
+    <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/company/tenthmatrix-information-systems-ltd."><img src="images/linkdin.jpg"  /></a>
+    <a target="_blank" title="Twitter" href="https://twitter.com/Tenthmatrix"><img src="images/skype.jpg"  /></a>
+    </div>
+
+
+</div>
+  </div>
+  <div class="row">
+    <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 logo"><a href="https://www.tenthmatrix.co.uk/index.php"><img src="images/logo.jpg" class="img-responsive"   alt="Tenthmatrix"   /></a></div>
+    <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-6">
+   
+    <div class="text-right navbar-right hidden-xs headerscllink">
+    <a target="_blank" title="Facebook" href="https://www.facebook.com/pages/Tenthmatrix-Information-Systems-Ltd/135928919777965"><img src="images/facebok.jpg"  /></a>
+    <a target="_blank" title="Google+" href="#"><img src="images/google.jpg"  /></a>
+    <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/company/tenthmatrix-information-systems-ltd."><img src="images/hdr-linkdin.jpg"  /></a>
+    <a target="_blank" title="Twitter" href="https://twitter.com/Tenthmatrix"><img src="images/skype.jpg"  /></a>
+    </div>
+    <div class="socialtxt navbar-right hidden-xs" style="padding-right:10px;">
+    <a href="https://crm.tenthmatrix.co.uk/hit/sign-in.shtml" target="_blank"> Customer sign in</a>
+    <a href="https://www.tenthmatrix.co.uk/news.php">News</a> <a href="https://www.tenthmatrix.co.uk/blog.php">Blog</a> <a href="https://www.tenthmatrix.co.uk/career.html">Career</a></div>
+  	</div>
+
+
+</div>
+  </div>
+</div>
+
+<div class="navbar navbar-default navbar-custom" role="navigation">
+    <div class="container">    
+ 
+    <div class="navbar-header">
+    
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+    
+    <div class="navbar-collapse collapse" >
+      <ul class="nav navbar-nav">
+        
+        <li> <a href="#"><span class="glyphicon glyphicon-menu-down" aria-hidden="true" style="font-size: 13px;"></span>&nbsp;About Us </a>
+         <ul class="dropdown-menu" >
+          <li>
+                    <a  href="https://www.tenthmatrix.co.uk/about-us.html"><span class="caret"></span> Company</a>
+                    <ul class="dropdown-menu">
+                      <li><a  href="https://www.tenthmatrix.co.uk/projects-undertaken.php">Projects undertaken</a></li>
+                      <li><a  href="https://www.tenthmatrix.co.uk/client-testimonial.php">Client testimonials</a></li>
+                    
+                    </ul>
+                  </li>
+                     <li><a href="https://www.tenthmatrix.co.uk/our-clients.html">Our clients</a></li>
+            <li><a href="khttps://www.tenthmatrix.co.uk/ey-people-in-the-company.html">Key people</a></li>
+            <li><a href="https://www.tenthmatrix.co.uk/our-partners.html">Our partners</a></li>
+		   <li><a href="https://www.tenthmatrix.co.uk/careers.html">Careers</a></li>
+            
+          </ul>
+        </li>
+        
+        
+      <li> <a href="#"><span class="glyphicon glyphicon-menu-down" aria-hidden="true" style="font-size: 13px;"></span>&nbsp;Products </a>
+      
+      <ul class="dropdown-menu" >
+          <li >
+                    <a  href="https://www.tenthmatrix.co.uk/catbase.html"><span class="caret"></span> Catbase</a>
+                    <ul class="dropdown-menu">
+                      <li><a  href="https://www.tenthmatrix.co.uk/catbase.html">What is CatBase?</a></li>
+                      <li><a  href="https://www.tenthmatrix.co.uk/catbase-how-to-videos.html">How to videos</a></li>
+                    
+                    </ul>
+                  </li>
+                     <li><a href="https://www.tenthmatrix.co.uk/img2d.html">Img2D</a></li>
+            <li><a href="https://www.tenthmatrix.co.uk/jobshout.html">Jobshout</a></li>
+            <li><a href="https://www.tenthmatrix.co.uk/support.html">Support</a></li>
+		           
+          </ul>
+      
+      
+          
+        </li>
+        
+        <li > <a href="#"><span class="glyphicon glyphicon-menu-down" aria-hidden="true" style="font-size: 13px;"></span>&nbsp;Services </a>
+          <ul class="dropdown-menu" role="menu">
+          <li >
+                    <a  target="_blank" href="https://crm.tenthmatrix.co.uk/hit/sign-in.shtml"> <span class="caret"></span> Customer portal</a>
+                    <ul class="dropdown-menu">
+                      <li><a  href="https://www.tenthmatrix.co.uk/customer-portal.html">Benefits of Online Customer Portal?</a></li>
+                      <li><a  target="_blank" href="https://crm.tenthmatrix.co.uk/hit/sign-in.shtml">Sign In</a></li>
+                    
+                    </ul>
+                  </li>
+                    <li >
+                    <a  href="apps.html"><span class="caret"></span> App</a>
+                    <ul class="dropdown-menu">
+                      <li><a  href="https://www.tenthmatrix.co.uk/mobile-iphone-and-ipad-apps.html">iPhone and iPad Apps</a></li>
+                      <li><a  href="https://www.tenthmatrix.co.uk/mobile-web-apps.html">Mobile Web Apps</a></li>
+                    
+                    </ul>
+                  </li>
+            <li><a href="https://www.tenthmatrix.co.uk/webmail.php">WebMail</a></li>
+			<li><a href="https://www.tenthmatrix.co.uk/website-design.html">Website Design</a></li>
+            <li><a href="https://www.tenthmatrix.co.uk/domain-names.html">Domain names</a></li>
+             <li><a href="https://www.tenthmatrix.co.uk/web-hosting.html">Web hosting</a></li>
+             <li >
+                    <a  href="e-mail-hosting.html"> <span class="caret"></span>Email hosting</a>
+                    <ul class="dropdown-menu">
+                      <li><a  href="https://www.tenthmatrix.co.uk/set-up-imap-mac-mail.html">Setup email on my Mac</a></li>
+                      <li><a  href="https://www.tenthmatrix.co.uk/set-up-imap-windows-live-mail.html">Setup email on my Windows</a></li>
+                         <li><a  href="https://www.tenthmatrix.co.uk/set-up-imap-iphone.html">Setup on email my iPhone or iPad</a></li>
+                    
+                    </ul>
+                  </li>
+		           
+          </ul>
+        </li>
+        
+        
+        <li > <a href="customer-portal.html"><span class="glyphicon glyphicon-menu-down" aria-hidden="true" style="font-size: 13px;"></span>&nbsp;Community </a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.tenthmatrix.co.uk/news.php">News</a></li>
+            <li><a href="https://www.tenthmatrix.co.uk/blog.php">Blog</a></li>
+        
+          </ul>
+        </li>
+          <li><a href="https://www.tenthmatrix.co.uk/contact.php">Contact Us</a></li>
+        
+        
+        <li > <a target="_blank" href="/index_payments.shtml" ><span class="glyphicon glyphicon-menu-down" aria-hidden="true" style="font-size: 13px;"></span>&nbsp;Payment </a>
+          <ul class="dropdown-menu" >
+            <li><a target="_blank" href="/index_payments.shtml">Make a Payment</a></li>
+            <li><a target="_blank" href="/index.shtml">Pay an Invoice</a></li>
+           </ul>
+        </li>
+  </ul>
+  </div>
+	<form id="searchform" method="get" action="https://www.tenthmatrix.co.uk/search-results.php" onsubmit="return $.checkSearchBox();">
+   		<div class="search text-right pull-right hidde-m">  <input type="text" value=""  name="s" id="s" size="15" placeholder="search..."  class="searchinput" > <input type="submit" value="" class="srchsubmit">  </div>
+	</form>  
+    </div>
+    </div>
+
+        <!-- #Menu End -->

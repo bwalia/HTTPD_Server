@@ -1,0 +1,152 @@
+<!-----------footer-section---------->
+<div class="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+
+<h1>About Tenthmatrix</h1>
+<p>Tenthmatrix is a full service new media agency, incorporating web design, SEO (Search Engine Optimisation), development including databases and Content Management Systems. We are expert in deploying large scale web database applications using SQL - MySQL, MSSQL Server, Oracle, 4D, PostgreSQL, Sybase & NoSQL such as MongoDB. Tenthmatrix is a 4D Silver Partner in London (UK). </p>
+
+
+</div>
+<div class="col-md-1"></div>
+<div class="col-md-6 text-right">
+<h1>&nbsp;</h1>
+<p><strong>About Us:</strong> <a href="https://www.tenthmatrix.co.uk/about-us.html">Company</a> | <a href="https://www.tenthmatrix.co.uk/our-clients.html">Our Clients</a> | <a href="https://www.tenthmatrix.co.uk/key-people-in-the-company.html">Key people</a> | <a href="https://www.tenthmatrix.co.uk/our-partners.html">Our Partners</a> | <a href="https://www.tenthmatrix.co.uk/careers.html">Career</a></p>
+<p><strong>Products:</strong> <a href="https://www.tenthmatrix.co.uk/catbase.html">Catbase</a> | <a href="https://www.tenthmatrix.co.uk/img2d.html">Img 2D</a> | <a href="https://www.tenthmatrix.co.uk/jobshout.html">Jobshout</a></p>
+<p><strong>Services:</strong> <a target="_blank" href="https://crm.tenthmatrix.co.uk/hit/sign-in.shtml">Customer Portal</a> | <a href="https://www.tenthmatrix.co.uk/apps.html">Apps</a> | <a href="https://www.tenthmatrix.co.uk/website-design.html"> Website Design</a> | <a href="https://www.tenthmatrix.co.uk/webmail.php">Web mail</a> | <a href="https://www.tenthmatrix.co.uk/domain-names.html">Domain name</a> | <a href="https://www.tenthmatrix.co.uk/web-hosting.html">Web Hosting</a> </p>
+<p><strong>Community:</strong> <a href="https://www.tenthmatrix.co.uk/news.php">News</a> | <a href="https://www.tenthmatrix.co.uk/blog.php">Blog</a></p>
+<p><strong>Our Network Sites :</strong> <a target="_blank" href="https://www.catbase.com/">https://www.catbase.com/</a></p>
+<p><a href="https://www.tenthmatrix.co.uk/privacy-policy.html">Privacy Policy</a>  | <a href="https://www.tenthmatrix.co.uk/terms-of-business.html"> Terms of Business</a> | <a href="https://www.tenthmatrix.co.uk/sitemap.php">Site map</a></p>
+</div>
+</div>
+</div>
+
+</div>
+<!-----------footer-section-----------end-->
+
+
+<!-----------Copyright-section---------->
+<div class="copyright" >
+<div class="container">
+<div class="row">
+<div class="col-md-3 pdngbtm">
+<img src="images/call-icon.jpg" align="left" style="padding-bottom:8px;" /><h3>Call</h3>
+<p>T: 0207 118 7889 </p>
+<p>UK Fax Number:  01442 450451</p>
+ </div>
+
+
+<div class="col-md-3 pdngbtm">
+<img src="images/email-icon.jpg" align="left" /><h3>Email</h3>
+<p><a href="mailto:info@tenthmatrix.co.uk">info@tenthmatrix.co.uk</a> </p>
+
+ </div>
+
+<div class="col-md-3 pdngbtm">
+<img src="images/follow-icon.jpg" align="left" /><h3>Follow Us</h3>
+
+<a target="_blank" title="Facebook" href="https://www.facebook.com/pages/Tenthmatrix-Information-Systems-Ltd/135928919777965"><img src="images/ftr-facebk.jpg"  /></a><a target="_blank" title="Google+" href="#"><img src="images/ftr-g.jpg"  /></a>
+<a target="_blank" title="LinkedIn" href="https://www.linkedin.com/company/tenthmatrix-information-systems-ltd."><img src="images/ftr-linkdin.jpg"  /></a><a target="_blank" title="Twitter" href="https://twitter.com/Tenthmatrix"><img src="images/ftr-skype.jpg"  /></a><a target="_blank" href="https://www.tenthmatrix.co.uk/rss.php" title="Subscribe to RSS feed"><img src="images/rss-icon.png"  alt=""/></a>
+
+ </div>
+ 
+ <div class="col-md-3 pdngbtm" >
+<img src="images/copyright-icon.jpg" align="left" style="padding-bottom:5px;" />
+<p><span>Copyright <!--#4DVAR string(Year of(Current date))--> - All rights reserved</span> </p>
+<p><span>Tenthmatrix Information Systems Ltd.</span>  </p>
+
+ </div>
+ 
+ 
+</div>
+</div>
+</div>
+<!-----------Copyright-section---------end----->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script> 
+<script src="js/jquery.event.move.js"></script>
+<script src="js/bs_leftnavi.js"></script>
+<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+<script type="text/javascript" src="js/jquery.flexisel2.js"></script>
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-hover-dropdown.js"></script>
+ <script type="text/javascript">
+
+$(window).load(function() {
+	
+	$("#flexiselDemo3").flexisel({
+		visibleItems: 4,
+		animationSpeed: 1000,
+		autoPlay: true,
+		autoPlaySpeed: 3000,    		
+		pauseOnHover: true,
+		enableResponsiveBreakpoints: true,
+    	responsiveBreakpoints: { 
+    		portrait: { 
+    			changePoint:480,
+    			visibleItems: 1
+    		}, 
+    		landscape: { 
+    			changePoint:640,
+    			visibleItems: 2
+    		},
+    		tablet: { 
+    			changePoint:768,
+    			visibleItems: 3
+    		}
+    	}
+    });
+    
+	
+	$("#flexiselDemo1").flexisels({
+		visibleItems: 4,
+		animationSpeed: 1000,
+		autoPlay: true,
+		autoPlaySpeed: 3000,    		
+		pauseOnHover: true,
+		enableResponsiveBreakpoints: true,
+    	responsiveBreakpoints: { 
+    		portrait: { 
+    			changePoint:480,
+    			visibleItems: 1
+    		}, 
+    		landscape: { 
+    			changePoint:640,
+    			visibleItems: 2
+    		},
+    		tablet: { 
+    			changePoint:768,
+    			visibleItems: 3
+    		}
+    	}
+    });
+    
+});
+
+</script>
+ <!-- SmartMenus jQuery plugin -->
+    <script type="text/javascript" src="js/jquery.smartmenus.js"></script>
+
+    <!-- SmartMenus jQuery Bootstrap Addon -->
+    <script type="text/javascript" src="js/jquery.smartmenus.bootstrap.js"></script>
+
+<script type="application/javascript">
+$(document).ready(function() {
+
+	$.checkSearchBox = function checkSearchBox(){
+		var searchText = $('#s').val();
+		if(searchText=='' || searchText=='Search...'){
+			alert('Please enter search keyword(s).');return false;
+		}
+		else return true;
+	}
+
+});
+
+</script>

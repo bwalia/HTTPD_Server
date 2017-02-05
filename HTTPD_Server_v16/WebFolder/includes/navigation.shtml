@@ -1,0 +1,636 @@
+ 
+<!-- sidebar --><!--#4DIF (_HIT_WebSession_GetVar ("auth_user_type")="CLIENTS")-->
+    <div id="sidebar-nav">
+		<span style="margin-bottom: 5px; margin-left: 15px; outline: 0 none;  padding: 19px 14px 15px; width: 88%;"><input style="height:13px;width:120px;" class="" type="text" value="" id="menu"></span>
+        <ul id="dashboard-menu">
+            <li>                
+                <a href="index.shtml">
+                <i><img src="img/home.png"  alt=""/></i>
+                  <!--  <i class="icon-home"></i>-->
+                    <span>Home</span>
+                </a>
+            </li>            
+
+            <li>
+              	<a class="dropdown-toggle" href="#">
+                    <i class="icon-edit"></i>
+                    <span>Account</span>
+					<i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="customers.shtml" target="_blank">Company</a></li>
+                    <li><a href="contacts.shtml" target="_blank">List Contacts</a></li>
+                    <li><a href="contact.shtml" target="_blank">Enter New Contact</a></li>
+                </ul>
+            </li>
+            
+                        
+			<li>
+              	<a class="dropdown-toggle" href="#">
+                    <i class="icon-tasks"></i>
+                    <span>Tasks</span>
+					<i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="tasks.shtml" target="_blank">List Tasks</a></li>
+                    <li><a href="task.shtml" target="_blank">Enter New Task</a></li>
+                </ul>
+            </li>
+            
+            
+            <li>
+              	<a class="dropdown-toggle" href="#">
+                    <i class="icon-calendar"></i>
+                    <span>Timeslips</span>
+					<i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="timeslips.shtml" target="_blank">List Timeslips</a></li>
+                </ul>
+            </li>
+            
+            
+            <li>
+              	<a class="dropdown-toggle" href="#">
+                    <i class="icon-briefcase"></i>
+                    <span>Documents</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="documents.shtml" target="_blank">List Documents</a></li>
+                    <li><a href="document.shtml" target="_blank">Enter New Document</a></li>
+                </ul>
+            </li>
+            
+            
+            <li>
+              	<a class="dropdown-toggle" href="#">
+                    <i class="icon-book"></i>
+                    <span>Invoices</span>
+					<i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="invoices.shtml" target="_blank">List Invoices</a></li>
+                </ul>
+            </li>
+            
+            
+        	<li>
+              	<a class="dropdown-toggle" href="#">
+                    <i class="icon-reorder"></i>
+                    <span>Receipts</span>
+					<i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="receipts.shtml" target="_blank">List Receipts</a></li>
+                </ul>
+            </li>
+			
+			
+            <li>
+              <a class="dropdown-toggle" href="#">
+                    <i class="icon-edit"></i>
+                    <span>Projects</span>
+					<i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="projects.shtml" target="_blank">List Projects</a></li>
+                    <li><a href="project.shtml" target="_blank">Enter New Project</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </div>
+    <!--#4DELSE-->
+    <div id="sidebar-nav">
+		<span style="margin-bottom: 5px; margin-left: 15px; outline: 0 none;  padding: 19px 14px 15px; width: 88%;"><input style="height:13px;width:120px;" class="" type="text" value="" id="menu"></span>
+        <ul id="dashboard-menu">
+            <li>                
+                <a href="index.shtml">
+                 <i><img src="img/home.png"  alt=""/></i>
+                   <!-- <i class="icon-home"></i>-->
+                    <span>Home</span>
+                </a>
+            </li>            
+
+
+            <li>
+              <a class="dropdown-toggle" href="#">
+                    <i class="icon-group"></i>
+                    <span>Customers</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="customers.shtml" target="_blank">Customers</a></li>
+                    <li><a href="customer.shtml" target="_blank">Enter New Customer</a></li>
+                    <li><a href="projects.shtml" target="_blank">Projects</a></li>
+                    <li><a href="project.shtml" target="_blank">Enter New Project</a></li>
+                    <li>
+						<a class="dropdown-toggle" href="#">
+							<span style="margin-left: 1px;"><strong>Customer Sets</strong></span>
+							<i class="icon-chevron-down" style="padding-right: 13px;"></i>
+						</a>
+						<ul class="submenu" style="padding-left: 15px;padding-bottom: 1px;list-style-type: none; border-bottom: 1px ; box-shadow: 0 0px 1px -1px;">
+							<!--#4DSCRIPT/Web_LoadCustomerSets/-->
+							<!--4DLOOP  [saved_sets]-->
+							<li><a href="javascript:void(0)" onClick="__showCustomerForm_LoadSet('<!--#4DHTMLVAR [saved_sets]name-->','<!--#4DHTMLVAR [saved_sets]uuid-->')"><!--4DVAR [saved_sets]name--></a></li>
+							<!--4DENDLOOP-->						
+						</ul>
+					</li>
+                </ul>
+            </li>
+        
+
+	 		<li>
+              	<a class="dropdown-toggle" href="#">
+                    <i><img src="img/contact2.png"  alt=""/></i>
+                    <span>Contacts</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="contacts.shtml" target="_blank">Contacts</a></li>
+                    <li><a href="contact.shtml" target="_blank">Enter New Contact</a></li>
+					<li><a class="dropdown-toggle" href="#">
+					<span style="margin-left: 1px;"><strong>Sets</strong></span>
+						<i class="icon-chevron-down" style="padding-right: 13px;"></i></a>
+						<ul class="submenu" style="padding-left: 15px;padding-bottom: 1px;list-style-type: none; border-bottom: 1px ; box-shadow: 0 0px 1px -1px;">
+						<!--#4DSCRIPT/Web_LoadContactSets/-->
+						<!--4DLOOP  [saved_sets]-->
+						<li><a href="javascript:void(0)" onClick="__showContactForm_LoadSet('<!--#4DHTMLVAR [saved_sets]name-->','<!--#4DHTMLVAR [saved_sets]uuid-->')"><!--4DVAR [saved_sets]name--></a></li>
+						<!--4DENDLOOP-->						
+						</ul>
+					</li>
+                </ul>
+            </li> 		
+ 
+ 
+			<li>
+              <a class="dropdown-toggle" href="#">
+                    <i class="icon-tasks"></i>
+                    <span>Tasks</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="tasks.shtml" target="_blank">Tasks</a></li>
+                    <li><a href="task.shtml" target="_blank">Enter New Task</a></li>
+                </ul>
+            </li>
+            
+            
+            <li>
+              <a class="dropdown-toggle" href="#">
+                    <i class="icon-calendar"></i>
+                    <span>Timeslips</span>
+					<i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+               		<li><a href="timeslips.shtml" target="_blank">Timeslips</a></li>
+               		<li><a href="calendar.shtml?mode=week" target="_blank">Calendar View</a></li> 
+                    <li><a class="dropdown-toggle" href="#">
+						<span style="margin-left: 1px;">View Timeslips of</span>
+						<i class="icon-chevron-down"></i>
+					</a>
+					<ul class="submenu" style="padding-left: 15px;padding-bottom: 1px;list-style-type: none; border-bottom: 1px ; box-shadow: 0 0px 1px -1px;">
+                    <li><a href="javascript:void(0)" onClick="__showTimesheets('today');">Today</a></li>
+                    <li><a href="javascript:void(0)" onClick="__showTimesheets('week');">This week</a></li>
+                    <li><a href="javascript:void(0)" onClick="__showTimesheets('month');">This month</a></li>
+					</ul>
+					</li>
+                    <li><a href="timeslip.shtml" target="_blank">Enter New Timeslip</a></li>
+                </ul>
+            </li>
+            
+            
+			<li>
+              <a class="dropdown-toggle" href="#">
+                    <i class="icon-edit"></i>
+                    <span>Documents</span>
+					<i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+					<li><a href="documents.shtml" target="_blank">Documents</a></li>
+					<li><a href="document.shtml" target="_blank">Enter New Document</a></li>
+               </ul>
+            </li>
+            
+            
+			<li>
+              <a class="dropdown-toggle" href="#">
+                	<i > <img src="img/order.png" width="24" height="24"  alt=""/></i>
+                    <span>Work Orders</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="orders.shtml" target="_blank">Work Orders</a></li>
+                    <li><a href="order.shtml" target="_blank">Enter New Work Order</a></li>
+                </ul>
+            </li>
+            
+            
+			<li>
+				<a class="dropdown-toggle" href="#">
+					<i>
+					<img src="img/domain.png" width="24" height="24"  alt=""/></i>
+					<span>IT inventory</span>
+					<i class="icon-chevron-down"></i>
+				</a>
+                <ul class="submenu">
+					<li><a href="servers.shtml" target="_blank">Servers</a></li>
+					<li><a href="server.shtml" target="_blank">Enter New Server</a></li>
+					<li><a href="domains.shtml" target="_blank">Domains</a></li>
+					<li><a href="domain.shtml" target="_blank">Enter New Domain</a></li>
+					<li>
+						<a class="dropdown-toggle" href="#">
+							<span style="margin-left: 1px;"><strong>Sets</strong></span>
+							<i class="icon-chevron-down" style="padding-right: 13px;"></i>
+						</a>
+						<ul class="submenu" style="padding-left: 15px;padding-bottom: 1px;list-style-type: none; border-bottom: 1px ; box-shadow: 0 0px 1px -1px;">
+							<!--#4DSCRIPT/Web_LoadDomainSets/-->
+							<!--4DLOOP  [saved_sets]-->
+							<li><a href="javascript:void(0)" onClick="__showDomainsForm_LoadSet('<!--#4DHTMLVAR [saved_sets]name-->','<!--#4DHTMLVAR [saved_sets]uuid-->')"><!--4DVAR [saved_sets]name--></a></li>
+							<!--4DENDLOOP-->						
+						</ul>
+					</li>
+               </ul>
+            </li>
+            
+            
+            <li>
+              <a class="dropdown-toggle" href="#">
+                    <i class="icon-book"></i>
+                    <span>Invoices</span>
+					<i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="invoices.shtml" target="_blank">Invoices</a></li>
+                    <li><a href="invoice.shtml" target="_blank">Enter New Invoice</a></li>
+                    <!-- <li><a href="recurring-invoices.shtml" target="_blank">Recurring Invoices</a></li> -->
+                     <li><a href="outstanding_invoices.shtml" target="_blank">Outstanding Invoices</a></li>
+                    <li>
+						<a class="dropdown-toggle" href="#">
+							<span style="margin-left: 1px;"><strong>Sets</strong></span>
+							<i class="icon-chevron-down" style="padding-right: 13px;"></i>
+						</a>
+						<ul class="submenu" style="padding-left: 15px;padding-bottom: 1px;list-style-type: none; border-bottom: 1px ; box-shadow: 0 0px 1px -1px;">
+							<!--#4DSCRIPT/Web_LoadInvoicesSets/-->
+							<!--4DLOOP  [saved_sets]-->
+							<li><a href="javascript:void(0)" onClick="__showInvoicesForm_LoadSet('<!--#4DHTMLVAR [saved_sets]name-->', '<!--#4DHTMLVAR [saved_sets]uuid-->')"><!--4DVAR [saved_sets]name--></a></li>
+							<!--4DENDLOOP-->						
+						</ul>
+					</li>
+                </ul>
+            </li>
+            
+            
+             <li>
+             <a class="dropdown-toggle" href="#">
+					<i>
+					<img src="img/receipt.png" width="22" height="22"  alt=""/></i>
+					<span>Receipts</span>
+					<i class="icon-chevron-down"></i>
+				</a>
+             
+              <!--<a class="dropdown-toggle" href="#">
+                    <i class="icon-reorder"></i>
+                    <span>Receipts</span>
+					 <i class="icon-chevron-down"></i>
+                </a>-->
+                <ul class="submenu">
+                    <li><a href="receipts.shtml" target="_blank">List Receipts</a></li>
+                    <li><a href="receipt.shtml" target="_blank">Enter New Receipt</a></li>
+                </ul>
+            </li> 
+            
+            <li>
+              	<a class="dropdown-toggle" href="#">
+                    <i class="icon-reorder"></i>
+                    <span>Payments</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="payments.shtml" target="_blank">List Payments</a></li>
+                    <li><a href="payment.shtml" target="_blank">Enter New Payment</a></li>
+                </ul>
+            </li>
+            
+            <li>
+            
+             <a class="dropdown-toggle" href="#">
+                	<i> <img src="img/vtcash-book.png" width="22" height="22"  alt=""/></i>
+                    <span>VT CashBook Activities</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+                
+              <!--<a class="dropdown-toggle" href="#">
+                    <i class="icon-book"></i>
+                    <span>VT CashBook Activities</span>
+					 <i class="icon-chevron-down"></i>
+                </a>-->
+                <ul class="submenu">
+                    <li><a href="vtcashbooks.shtml" target="_blank">List Activities</a></li>
+                    <li><a href="vtcashbook.shtml" target="_blank">Enter New Activity</a></li>                     
+                </ul>
+            </li>
+			
+			<li>
+            
+            
+            <a class="dropdown-toggle" href="#">
+                	<i> <img src="img/bank-enteries.png" width="22" height="22"  alt=""/></i>
+                    <span>Bank Enteries</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+            
+              <!--<a class="dropdown-toggle" href="#">
+                    <i class="icon-edit"></i>
+                    <span>Bank Enteries</span>
+					 <i class="icon-chevron-down"></i>
+                </a>-->
+                <ul class="submenu">
+                    <li><a href="bank_enteries.shtml" target="_blank">List Bank Enteries</a></li>
+                    <li><a href="bank_entry.shtml" target="_blank">Enter New Bank Entry</a></li>
+                    <li>
+						<a class="dropdown-toggle" href="#">
+							<span style="margin-left: 1px;"><strong>Sets</strong></span>
+							<i class="icon-chevron-down" style="padding-right: 13px;"></i>
+						</a>
+						<ul class="submenu" style="padding-left: 15px;padding-bottom: 1px;list-style-type: none; border-bottom: 1px ; box-shadow: 0 0px 1px -1px;">
+							<!--#4DSCRIPT/Web_loadBankEnteriesSets/-->
+							<!--4DLOOP  [saved_sets]-->
+							<li><a href="javascript:void(0)" onClick="__showBanksForm_LoadSet('<!--#4DHTMLVAR [saved_sets]name-->', '<!--#4DHTMLVAR [saved_sets]uuid-->')"><!--4DVAR [saved_sets]name--></a></li>
+							<!--4DENDLOOP-->						
+						</ul>
+					</li>
+                </ul>
+            </li>
+ 			<li>
+            
+            <a class="dropdown-toggle" href="#">
+                	<i> <img src="img/analysis-acount.png" width="22" height="22"  alt=""/></i>
+                    <span>Analysis Account</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+            
+              <!--<a class="dropdown-toggle" href="#">
+                    <i class="icon-book"></i>
+                    <span>Analysis Account</span>
+					 <i class="icon-chevron-down"></i>
+                </a>-->
+                <ul class="submenu">
+                    <li><a href="analysisaccounts.shtml" target="_blank">List Analysis Account</a></li>
+                    <li><a href="analysisaccount.shtml" target="_blank">Enter Analysis Account</a></li>                     
+                </ul>
+            </li>
+            
+             <li>
+             
+               <a class="dropdown-toggle" href="#">
+                	<i> <img src="img/ledger.png" width="22" height="22"  alt=""/></i>
+                    <span>Analysis Ledger</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+             
+             <!-- <a class="dropdown-toggle" href="#">
+                    <i class="fa-file-text"></i>
+                    <span>Analysis Ledger</span>
+					 <i class="icon-chevron-down"></i>
+                </a>-->
+                <ul class="submenu">
+                    <li><a href="analysisledgers.shtml" target="_blank">List Analysis Ledger</a></li>
+                    <li><a href="analysisledger.shtml" target="_blank">Enter Analysis Ledger</a></li>                     
+                </ul>
+            </li>
+            
+            <li>
+             <a class="dropdown-toggle" href="#">
+                	<i> <img src="img/script.png" width="22" height="22"  alt=""/></i>
+                    <span>Rsync Scripts</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+            
+             <!-- <a class="dropdown-toggle" href="#">
+                    <i class="icon-book"></i>
+                    <span>Rsync Scripts</span>
+					 <i class="icon-chevron-down"></i>
+                </a>-->
+                <ul class="submenu">
+                    <li><a href="projectscripts.shtml" target="_blank">List Rsync Scripts</a></li>
+                    <li><a href="projectscript.shtml" target="_blank">Enter Rsync Script</a></li>                     
+                </ul>
+            </li>
+            
+            <li>
+            
+            <a class="dropdown-toggle" href="#">
+                	<i> <img src="img/purchase-invoices.png" width="22" height="22"  alt=""/></i>
+                    <span>Purchase Invoices</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+              <!--<a class="dropdown-toggle" href="#">
+                    <i class="icon-book"></i>
+                    <span>Purchase Invoices</span>
+					 <i class="icon-chevron-down"></i>
+                </a>-->
+                <ul class="submenu">
+                    <li><a href="purchase_invoices.shtml" target="_blank">List Purchase Invoices</a></li>
+                    <li><a href="purchase_invoice.shtml" target="_blank">Enter New Purchase Invoice</a></li>
+                </ul>
+
+            </li>
+            
+            <li>
+            
+              <a class="dropdown-toggle" href="#">
+                	<i> <img src="img/purchase-order.png" width="22" height="22"  alt=""/></i>
+                    <span>Purchase Orders</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+              <!--<a class="dropdown-toggle" href="#">
+                    <i class="icon-book"></i>
+                    <span>Purchase Orders</span>
+					 <i class="icon-chevron-down"></i>
+                </a>-->
+                <ul class="submenu">
+                    <li><a href="purchase_orders.shtml" target="_blank">List Purchase Orders</a></li>
+                    <li><a href="purchase_order.shtml" target="_blank">Enter Purchase Order</a></li>                     
+                </ul>
+            </li>
+            
+            <li>
+				<a class="dropdown-toggle" href="#">
+					<i class="icon-group"></i>
+					<span>Leads</span>
+					<i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="leads.shtml" target="_blank">Leads</a></li>
+                    <li><a href="lead.shtml" target="_blank">Enter New Lead</a></li>
+	            <ul class="submenu">
+                    <li><a href="lead_contacts.shtml" target="_blank">Lead Contacts</a></li>
+                    <li><a href="lead_contact.shtml" target="_blank">Enter New Lead Contact</a></li>
+                </ul>
+						<li>
+						<a class="dropdown-toggle" href="#">
+							<span style="margin-left: 1px;"><strong>Sets</strong></span>
+							<i class="icon-chevron-down" style="padding-right: 13px;"></i>
+						</a>
+						<ul class="submenu" style="padding-left: 15px;padding-bottom: 1px;list-style-type: none; border-bottom: 1px ; box-shadow: 0 0px 1px -1px;">
+							<!--#4DSCRIPT/Web_LoadLeadsSets/-->
+							<!--4DLOOP  [saved_sets]-->
+							<li><a href="javascript:void(0)" onClick="__showleadForm_LoadSet('<!--#4DHTMLVAR [saved_sets]name-->', '<!--#4DHTMLVAR [saved_sets]uuid-->')"><!--4DVAR [saved_sets]name--></a></li>
+							<!--4DENDLOOP-->						
+						</ul>
+					</li>
+                </ul>
+            </li>
+               
+			<li>
+              <a class="dropdown-toggle" href="#">
+                    <i class="icon-file"></i>
+                    <span>Products</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="products.shtml" target="_blank">Products</a></li>
+                    <li><a href="product.shtml" target="_blank">Enter New Product</a></li>
+                </ul>
+            </li>
+            
+            
+			<li>
+              <a class="dropdown-toggle" href="#">
+                    <i class="icon-edit"></i>
+                    <span>Mileage</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="travel_expenses.shtml" target="_blank">Travel Expense Sheet</a></li>
+                    <li><a href="travel_expense.shtml" target="_blank">Enter New Travel Expense Sheet</a></li>
+                </ul>
+            </li>
+                        
+			<li>
+              <a class="dropdown-toggle" href="#">
+                    <i class="icon-tags"></i>
+                    <span>Holidays</span>
+					 <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="holidays.shtml" target="_blank">Holidays</a></li>
+					<li><a href="holiday_calender.shtml" target="_blank">Calendar View</a></li> 
+                    <li><a href="holiday.shtml" target="_blank">Request New Holiday</a></li>
+                </ul>
+            </li>
+            
+            
+            <li>
+                <a href="calendar.shtml">                    
+                    <i class="icon-calendar-empty"></i>
+                    <span>Calendar</span>
+                </a>
+            </li>
+            
+            
+			<li>
+              <a class="dropdown-toggle" href="#">
+                    <i class="icon-group"></i>
+                    <span>Employees</span>
+					<i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="employees.shtml" target="_blank">Employees</a></li>
+                    <li><a href="employeeholidays.shtml" target="_blank">Employees Holidays</a></li>
+                    <!--#4DIF ((IsUserBookKeeper) | (IsUserPower))-->
+                    <li><a href="employee.shtml">Enter New Employee</a></li>
+                    <!--#4DENDIF-->
+                    <li>
+						<a class="dropdown-toggle" href="#">
+							<span style="margin-left: 1px;"><strong>Manager</strong></span>
+							<i class="icon-chevron-down" style="padding-right: 13px;"></i>
+						</a>
+						<ul class="submenu" style="padding-left: 15px;padding-bottom: 1px;list-style-type: none; border-bottom: 1px ; box-shadow: 0 0px 1px -1px;">
+							<!--#4DSCRIPT/Web_LoadManager/-->
+							<!--4DLOOP  [Employees]-->
+							<li><a href="javascript:void(0)" onClick="__showEmployeeForm_Loadmanager('<!--#4DHTMLVAR [Employees]emp_first_name--> <!--#4DHTMLVAR [Employees]emp_last_name-->','<!--#4DHTMLVAR [Employees]uuid-->')"><!--#4DHTMLVAR [Employees]emp_first_name--> <!--#4DHTMLVAR [Employees]emp_last_name--></a></li>						
+							<!--4DENDLOOP-->
+							<!--#4DSCRIPT/Web_LoadManager/restore-->
+						</ul>
+					</li>
+                </ul>
+
+            </li>
+            
+            <li>
+                <a class="dropdown-toggle" href="#">
+                    <i class="icon-share-alt"></i>
+                    <span>Admin</span>
+                    <i class="icon-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                	<li><a href="emailqueue.shtml" target="_blank">Email queue</a></li>
+                	<li><a href="emailsend.shtml" target="_blank">New Mail</a></li>
+                    <li><a href="system-activity.shtml" target="_blank">System Activity</a></li>
+                    <!--li><a href="grids.html">Settings</a></li>
+                    <li><a href="grids.html">Grids</a></li-->
+                </ul>
+            </li>
+            
+            
+        </ul>
+    </div>
+<script>	
+function __showleadForm_LoadSet(name,uuid)
+{
+pUrlStr='leads.shtml?set='+name+'&set_uuid='+uuid;
+window.location.href=pUrlStr;
+}
+</script>
+<script>	
+function __showCustomerForm_LoadSet(name,uuid)
+{
+pUrlStr='customers.shtml?set='+name+'&set_uuid='+uuid;
+window.location.href=pUrlStr;
+}
+</script>
+<script>	
+function __showDomainsForm_LoadSet(name,uuid)
+{
+pUrlStr='domains.shtml?set='+name+'&set_uuid='+uuid;
+window.location.href=pUrlStr;
+}
+</script>
+<script>	
+function __showContactForm_LoadSet(name,uuid)
+{
+pUrlStr='contacts.shtml?set='+name+'&set_uuid='+uuid;
+window.location.href=pUrlStr;
+}
+</script>
+<script>	
+function __showInvoicesForm_LoadSet(name,uuid)
+{
+pUrlStr='invoices.shtml?set='+name+'&set_uuid='+uuid;
+window.location.href=pUrlStr;
+}
+function __showBanksForm_LoadSet(name,uuid)
+{
+pUrlStr='bank_enteries.shtml?set='+name+'&set_uuid='+uuid;
+window.location.href=pUrlStr;
+}
+</script>
+<script>	
+function __showTimesheets(name)
+{
+
+pUrlStr='timeslips.shtml?duration='+name;
+window.location.href=pUrlStr;
+}
+</script>
+<script>	
+function __showEmployeeForm_Loadmanager(name,uuid)
+{
+pUrlStr='employees.shtml?manager='+name+'&manageruuid='+uuid;
+window.location.href=pUrlStr;
+}
+</script>
+<!--#4DENDIF--><!-- end sidebar -->

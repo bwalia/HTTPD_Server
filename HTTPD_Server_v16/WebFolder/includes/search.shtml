@@ -1,0 +1,12 @@
+                <!--Begin search -->
+                <div class="search">
+                
+<form id="searchform" method="get" action="http://www.tenthmatrix.co.uk/search-result.php" onsubmit="return $j.checkSearchBox();">
+                    <div>
+                        <input type="text" name="s" id="s" size="15" value="Search..."
+                            onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" />
+                        <input id="searchsubmit" type="submit" value="GO" />
+                    </div>
+                    </form>
+                </div>
+                <!--End search -->

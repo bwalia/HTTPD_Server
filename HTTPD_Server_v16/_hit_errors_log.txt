@@ -1,0 +1,3 @@
+04/02/2017	17:41:48	URL: /index.html	Process name: _HIT_HTTPD__RequestHandler 1	55	4DRT	A Boolean argument was expected.
+04/02/2017	17:41:59	URL: /favicon.ico	Process name: _HIT_HTTPD__RequestHandler 2	55	4DRT	A Boolean argument was expected.
+04/02/2017	18:28:40	URL: /index.html	Process name: _HIT_HTTPD__RequestHandler 1	15	4DRT	This operation is not compatible with the two arguments.
